@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void){
+char caracter;
+int num;
+num = 0;
+
+caracter = '\0';
+//comentario
+
+printf("caracter nulo: %c\n",caracter);
+return 23;
+}

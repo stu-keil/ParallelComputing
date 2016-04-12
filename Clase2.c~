@@ -1,0 +1,21 @@
+#include<stdio.h>
+#define NUMERO 10
+#define max(A,B) ((A) > (B) ? (A) : (B))//Macros
+
+int valor = 10;
+
+void funcion(void){
+	extern int valor;
+	printf("valor: %d\n",valor);
+}
+int main(void){
+
+	int x;
+	x = max(5,4);
+	printf("Numero: %d\n", NUMERO);
+	printf("Valor de x: %d\n", x);
+	funcion();
+	return 0;
+}
+
+
