@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(void){
+	int *p;
+	int var;
+	p = &var;
+	printf("%p\n",&var);
+	printf("%p\n",p);
+	*p = -10;
+	printf("%d\n",var);
+	printf("%d\n",*p);
+	var = -20;
+	printf("%d\n",var);
+	printf("%d\n",*p);
+	p = 0x7ffd7c9c5908;
+	printf("%p\n",&var);
+	printf("%p\n",p);
+	printf("%d\n",*p);
+	
+}
